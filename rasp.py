@@ -6,10 +6,8 @@ import urllib.request
 from sense_hat import SenseHat
 
 sense = SenseHat()
-myAPI= 'OHMT0IPV2X8X8F98'
-baseURL ='https://thingspeak.com/channels/1261180/api_keys' % myAPI
-
-print ("Hello CME 4436")
+myAPI= ''
+baseURL ='' % myAPI
 
 def update_value(mode):
   value=0
